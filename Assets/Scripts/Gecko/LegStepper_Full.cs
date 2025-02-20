@@ -149,7 +149,7 @@ public class LegStepper_Full : MonoBehaviour
         Moving = false;
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         if (Moving)
             Gizmos.color = Color.green;
